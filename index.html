@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Arcade</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css" />
+    <script src="app.js" defer></script>
+  </head>
+
+  <body>
+    <h1>Tic-Tac-Toe</h1>
+
+    <div id="player-field">
+        <label for="p1name">Player 1:</label>
+        <input type="text" id="p1name" name="p1name"><br><br>
+        <label for="p2name">Player 2:</label>
+        <input type="text" id="p2name" name="p2name"><br><br>
+        <input type="submit" onclick="beginGame()" value="Start Game">
+    </div>
+
+    <div id="current-player"></div>
+
+    <div id="game-board"></div>
+
+    <aside id="active-players">        
+      <section id="player-one">Player 1</section>
+      <section id="player-two">Player 2</section>
+  </aside>
+
+    <div id="new-game">
+        <button type="button">New Game</button>
+    </div>
+    
+  </body>
+

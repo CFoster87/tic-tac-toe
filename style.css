@@ -1,0 +1,60 @@
+
+* {
+    font-family: 'Press Start 2P', cursive;
+    
+}
+
+body {
+    background-image: linear-gradient(100deg, #262857, #a5e9e8);
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#player-field {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+}
+
+  
+#game-board {
+      width: 600px;
+      height: 600px;
+      margin: 0 auto;
+    background-color: #34495e;
+    color: #fff;
+    border: 6px solid #2c3e50;
+    border-radius: 10px;
+      
+      display: none;
+      grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    
+  }
+
+div > button {
+    font-size: 100%;
+}
+
+#current-player {
+    display: none;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin: 5rem 0;
+
+}
+
+#active-players {
+    display: none;
+    justify-content: center;
+}
+section {
+    display:flex;
+    margin: 2rem;
+
+}
