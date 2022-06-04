@@ -14,8 +14,8 @@
         <label for="p1name">Player 1:</label>
         <input type="text" id="p1name" name="p1name"><br><br>
         <label for="p2name">Player 2:</label>
-        <input type="text" id="p2name" name="p2name"><br><br>
-        <input type="submit" onclick="beginGame()" value="Start Game">
+        <input type="text" id="p2name" placeholder="Leave blank for Computer" name="p2name"><br><br>
+        <input type="submit" onclick="beginGame()" class="button" value="Start Game">
     </div>
 
     <div id="current-player"></div>
@@ -28,7 +28,7 @@
   </aside>
 
     <div id="new-game">
-        <button type="button">New Game</button>
+        <button type="button" class="button" onclick="newGame()">New Game</button>
     </div>
     
   </body>
