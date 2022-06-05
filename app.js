@@ -34,8 +34,7 @@ function beginGame() {
         player2 = "Computer"
     }
 
-    
-    if (Math.floor(Math.random()*3) === 1) {
+    if (Math.floor(Math.random()*2) === 1) {
         gameState.players[0] = player1
         gameState.players[1] = player2
     }

@@ -25,16 +25,15 @@ h1 {
 
   
 #game-board {
-      width: 600px;
-      height: 600px;
-      margin: 0 auto;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
     background-color: #34495e;
     color: #fff;
     border: 6px solid #049CD8;
     border-radius: 10px;
-      
-      display: none;
-      grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    display: none;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
     
   }
 
