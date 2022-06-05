@@ -47,6 +47,10 @@ section {
 
 }
 
+#p1name, #p2name {
+    color: black;
+}
+
 #current-player {
     display: none;
     justify-content: center;
